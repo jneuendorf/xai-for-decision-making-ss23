@@ -20,8 +20,13 @@ xai-status:
   title:
     value: "Explainable AI: current status and future directions"
     verbatim: true
-  date: 2021-07-12
+  date: 2021 #-07-12
   doi: "10.48550/ARXIV.2107.07045"
+  parent:
+    type: Journal
+    title: 
+      title-case: CoRR
+    #volume: "abs/2107.07045"
 
 # non-pool secondary
 ch-anomaly-detection:
@@ -32,10 +37,14 @@ ch-anomaly-detection:
     - Montavon, Grégoire
     - Müller, Klaus-Robert
   title:
-    value: "The Clever Hans Effect in anomaly detection"
-    verbatim: true
-  date: 2020-06-18
-  doi: 2006.10609
+    title-case: "The Clever Hans Effect in Anomaly Detection"
+  date: 2020 #-06-18
+  doi: 10.48550/ARXIV.2006.10609
+  parent:
+    type: Journal
+    title: 
+      title-case: CoRR
+    
 
 # secondary
 post-hoc-ex:
@@ -54,7 +63,7 @@ post-hoc-ex:
     title: 
       value: Internation Conference on Learning Representations
       verbatim: true
-    date: 2022-04
+    date: 2022 #-04
     publisher: OpenReview.net
     #url: https://openreview.net/forum?id=xNOVfCCvDpM
       
@@ -71,8 +80,13 @@ find-remove-ch:
         - Lapuschkin, Sebastian
     title:
         title-case: "Finding and Removing Clever Hans: Using Explanation Methods to Debug and Improve Deep Models"
-    date: 2020-12-18
-    doi: 1912.11425
+    date: 2020 #-12-18
+    #doi: 1912.11425
+    page-range: 261-295
+    parent:
+      type: Journal
+      title: Inf. Fusion
+      volume: 77
 
 
 # secondary
@@ -85,5 +99,10 @@ towards-robust-ex:
         - Kessel, Pan
     title:
         title-case: "Towards Robust Explanations for Deep Neural Networks"
-    date: 2020-12-18
-    doi: 2012.10425
+    date: 2022
+    # doi: 2012.10425
+    page-range: 108194
+    parent:
+      type: Journal
+      title: Pattern Recognit.
+      volume: 121
