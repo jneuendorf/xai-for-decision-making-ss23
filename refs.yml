@@ -1,0 +1,89 @@
+# main
+preemptive-prune-ch:
+  type: Article
+  author:
+    - Linhardt, Lorenz
+    - Müller, Klaus-Robert
+    - Montavon, Grégoire
+  title:
+    title-case: "Preemptively Pruning Clever-Hans Strategies in Deep Neural Networks"
+  date: 2023-04-12
+  doi: 2304.05727
+
+# non-pool secondary
+xai-status:
+  type: Article
+  author:
+    - Gohel, Prashant
+    - Singh, Priyanka
+    - Mohanty, Manoranjan
+  title:
+    value: "Explainable AI: current status and future directions"
+    verbatim: true
+  date: 2021-07-12
+  doi: "10.48550/ARXIV.2107.07045"
+
+# non-pool secondary
+ch-anomaly-detection:
+  type: Article
+  author:
+    - Kauffmann, Jacob
+    - Ruff, Lukas
+    - Montavon, Grégoire
+    - Müller, Klaus-Robert
+  title:
+    value: "The Clever Hans Effect in anomaly detection"
+    verbatim: true
+  date: 2020-06-18
+  doi: 2006.10609
+
+# secondary
+post-hoc-ex:
+  type: Article
+  author:
+    - Adebayo, Julius
+    - Muelly, Michael
+    - Abelson, Hal
+    - Kim, Been
+  title:
+    title-case: "Post hoc Explanations may be Ineffective for Detecting Unknown Spurious Correlation"
+  date: 2022
+  doi: "10.48550/ARXIV.2212.04629"
+  parent:
+    type: Conference
+    title: 
+      value: Internation Conference on Learning Representations
+      verbatim: true
+    date: 2022-04
+    publisher: OpenReview.net
+    #url: https://openreview.net/forum?id=xNOVfCCvDpM
+      
+
+# secondary
+find-remove-ch:
+    type: Article
+    author:
+        - Anders, Christopher J. 
+        - Weber, Leander
+        - Neumann, David
+        - Samek, Wojciech
+        - Müller, Klaus-Robert
+        - Lapuschkin, Sebastian
+    title:
+        title-case: "Finding and Removing Clever Hans: Using Explanation Methods to Debug and Improve Deep Models"
+    date: 2020-12-18
+    doi: 1912.11425
+
+
+# secondary
+towards-robust-ex:
+    type: Article
+    author:
+        - Dombrowski, Ann-Kathrin 
+        - Anders, Christopher J.
+        - Müller, Klaus-Robert
+        - Kessel, Pan
+    title:
+        title-case: "Towards Robust Explanations for Deep Neural Networks"
+    date: 2020-12-18
+    doi: 2012.10425
